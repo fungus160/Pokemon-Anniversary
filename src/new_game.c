@@ -131,7 +131,7 @@ static void ClearFrontierRecord(void)
 
 static void WarpToTruck(void)
 {
-    SetWarpDestination(MAP_GROUP(MAP_SARGENT_PARK), MAP_NUM(MAP_SARGENT_PARK), WARP_ID_NONE, -1, -1);
+    SetWarpDestination(MAP_GROUP(MAP_PLAYER_HOUSE), MAP_NUM(MAP_PLAYER_HOUSE), WARP_ID_NONE, -8, -5);
     WarpIntoMap();
 }
 
@@ -175,7 +175,7 @@ void NewGameInitData(void)
     ResetGabbyAndTy();
     ClearSecretBases();
     ClearBerryTrees();
-    SetMoney(&gSaveBlock1Ptr->money, 3000);
+    SetMoney(&gSaveBlock1Ptr->money, 50000);
     SetCoins(0);
     ResetLinkContestBoolean();
     ResetGameStats();

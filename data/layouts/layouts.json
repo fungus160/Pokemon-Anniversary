@@ -4440,6 +4440,16 @@
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/NorthKildonan/border.bin",
       "blockdata_filepath": "data/layouts/NorthKildonan/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYER_HOUSE",
+      "name": "PlayerHouse_Layout",
+      "width": 14,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/PlayerHouse/border.bin",
+      "blockdata_filepath": "data/layouts/PlayerHouse/map.bin"
     }
   ]
 }
