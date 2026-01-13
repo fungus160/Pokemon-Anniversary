@@ -12,7 +12,9 @@ PlayerHouse_EventScript_AcquireDedenne::
 	msgbox Text_ReceivedDedenne, MSGBOX_DEFAULT
 	setflag FLAG_SYS_POKEMON_GET
 	waitfanfare
+	removeobject 1
 	closemessage
+	setflag FLAG_HIDE_DEDENNE_BALL
 	release
 	end
 
@@ -21,14 +23,13 @@ PlayerHouse_EventScript_Supplies::
 	faceplayer
 	msgbox Text_TakePokedex, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
-	msgbox Text_ReceivedPokedex, MSGBOX_DEFAULT
 	setflag FLAG_SYS_POKEDEX_GET
+	setflag FLAG_SYS_B_DASH
 	setflag FLAG_ADVENTURE_STARTED
-	special SetUnlockedPokedexFlags
-	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
 	closemessage
-	msgbox Text_FindPokeballs, MSGBOX_DEFAULT
 	giveitem ITEM_ULTRA_BALL, 50
+	removeobject 2
+	setflag FLAG_HIDE_SUPPLY_BALL
 	release
 	end
 
@@ -39,10 +40,5 @@ Text_ReceivedDedenne:
 	.string "{PLAYER} received a Dedenne!$"	
 
 Text_TakePokedex:
-	.string "You also found a Pokedex!$"
-
-Text_FindPokeballs:
-	.string "{PLAYER} also found some Pokeballs.$"
-
-Text_ReceivedPokedex:
-	.string "{PLAYER} received the Pokedex!"
+	.string "You found a Pokedex, running shoes\n"
+	.string "and some supplies!$"

@@ -36,31 +36,21 @@ LilycoveCity_PokemonCenter_1F_EventScript_Boy::
 	end
 
 LilycoveCity_PokemonCenter_1F_EventScript_Maniac::
-	lock
-	faceplayer
-	goto_if_set FLAG_BADGE07_GET, LilycoveCity_PokemonCenter_1F_EventScript_ManiacBadTeamGone
-	msgbox LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels, MSGBOX_DEFAULT
-	release
-	end
-
-LilycoveCity_PokemonCenter_1F_EventScript_ManiacBadTeamGone::
-	msgbox LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels, MSGBOX_DEFAULT
-	release
+	msgbox LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels, MSGBOX_NPC
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon:
-	.string "I wonder how many kinds of POKéMON\n"
-	.string "there are in the world.\p"
-	.string "It'd be great to cross seas and\n"
-	.string "trade POKéMON with people far away.$"
+	.string "Brendan always talked about how\n"
+	.string "beautiful you are and how much\l"
+	.string "he loved you.\p"
+	.string "You'd better get him back!$"
 
 LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels:
-	.string "I've been hearing about some rotten\n"
-	.string "scoundrels who steal POKéMON and rip\l"
-	.string "off METEORITES.$"
-
-LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
-	.string "Those rotten scoundrels who steal\n"
-	.string "POKéMON and rip off METEORITES…\p"
-	.string "I haven't seen them around recently.$"
-
+	.string "Would you like to come upstairs and\n"
+	.string "see my collection of anime figures\l"
+	.string "in jars?\p"
+	.string "I PROMISE the white stuff is just\n"
+	.string "a preservative so the paint stays\l"
+	.string "nice and bright.\p"
+	.string "...\p"
+	.string "What? I swear!$"

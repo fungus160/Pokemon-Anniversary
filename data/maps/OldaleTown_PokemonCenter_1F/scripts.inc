@@ -25,38 +25,27 @@ OldaleTown_PokemonCenter_1F_EventScript_Boy::
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Girl::
-	lock
-	faceplayer
-	goto_if_set FLAG_SYS_POKEDEX_GET, OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable
-	msgbox OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable, MSGBOX_DEFAULT
-	release
-	end
-
-OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
-	msgbox OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub, MSGBOX_DEFAULT
-	release
+	msgbox OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable, MSGBOX_NPC
 	end
 
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
-	.string "That PC in the corner there is\n"
-	.string "for any POKéMON TRAINER to use.\p"
-	.string "Naturally, that means you're welcome\n"
-	.string "to use it, too.$"
+.string "Would you like to come upstairs and\n"
+	.string "see my collection of anime figures\l"
+	.string "in jars?\p"
+	.string "I PROMISE the white stuff is just\n"
+	.string "a preservative so the paint stays\l"
+	.string "nice and bright.\p"
+	.string "...\p"
+	.string "What? I swear!$"
 
 OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
-	.string "POKéMON CENTERS are great!\p"
-	.string "You can use their services as much\n"
-	.string "as you like, and it's all for free.\l"
-	.string "You never have to worry!$"
+	.string "Brendan always talked about how\n"
+	.string "beautiful you are and how much\l"
+	.string "he loved you.\p"
+	.string "You'd better get him back!$"
 
 OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
-	.string "The POKéMON WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "But they say they're still making\n"
-	.string "adjustments.$"
-
-OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
-	.string "The POKéMON WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "I traded POKéMON right away.$"
-
+	.string "Everyone in town is jealous\n"
+	.string "of you and Brendan.\p"
+	.string "We all wish we could have a\n"
+	.string "relationship like you two.$"

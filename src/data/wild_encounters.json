@@ -11491,6 +11491,144 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_SARGENT_PARK",
+          "base_label": "gSargentPark",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 48,
+                "max_level": 49,
+                "species": "SPECIES_CLEFABLE"
+              },
+              {
+                "min_level": 47,
+                "max_level": 47,
+                "species": "SPECIES_SLOWBRO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 46,
+                "species": "SPECIES_MORPEKO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 46,
+                "species": "SPECIES_BELLIBOLT"
+              },
+              {
+                "min_level": 49,
+                "max_level": 50,
+                "species": "SPECIES_TATSUGIRI"
+              },
+              {
+                "min_level": 48,
+                "max_level": 49,
+                "species": "SPECIES_DITTO"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_SNORLAX"
+              },
+              {
+                "min_level": 48,
+                "max_level": 49,
+                "species": "SPECIES_MIMIKYU"
+              },
+              {
+                "min_level": 49,
+                "max_level": 50,
+                "species": "SPECIES_TOGEDEMARU"
+              },
+              {
+                "min_level": 49,
+                "max_level": 50,
+                "species": "SPECIES_TINKATON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 51,
+                "species": "SPECIES_DRAGAPULT"
+              },
+              {
+                "min_level": 85,
+                "max_level": 85,
+                "species": "SPECIES_PIPLUP"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_MAINSTREET",
+          "base_label": "gMAINSTREET",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 49,
+                "max_level": 50,
+                "species": "SPECIES_WIGGLYTUFF"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 49,
+                "max_level": 50,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_BEWEAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_SYLVEON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_SIRFETCHD"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_JUMPLUFF"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_SCREAM_TAIL"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_SCREAM_TAIL"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_SCREAM_TAIL"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_SCREAM_TAIL"
+              },
+              {
+                "min_level": 65,
+                "max_level": 65,
+                "species": "SPECIES_MAUSHOLD"
+              }
+            ]
+          }
         }
       ]
     },
