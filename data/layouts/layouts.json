@@ -4450,6 +4450,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/PlayerHouse/border.bin",
       "blockdata_filepath": "data/layouts/PlayerHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_PMD",
+      "name": "PMD_Layout",
+      "width": 25,
+      "height": 25,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CableClub",
+      "border_filepath": "data/layouts/PMD/border.bin",
+      "blockdata_filepath": "data/layouts/PMD/map.bin"
+    },
+    {
+      "id": "LAYOUT_PMD2",
+      "name": "PMD2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/PMD2/border.bin",
+      "blockdata_filepath": "data/layouts/PMD2/map.bin"
     }
   ]
 }

@@ -629,5 +629,8 @@
   "gMapGroup_IndoorSgtPark": [
     "PlayerHouse"
   ],
-  "gMapGroup_IndoorNKildn": []
+  "gMapGroup_IndoorNKildn": [
+    "PMD",
+    "PMD2"
+  ]
 }

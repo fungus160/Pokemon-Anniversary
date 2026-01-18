@@ -1171,3 +1171,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/NorthKildonan/scripts.inc"
 
 	.include "data/maps/PlayerHouse/scripts.inc"
+
+	.include "data/maps/PMD/scripts.inc"
+
+	.include "data/maps/PMD2/scripts.inc"

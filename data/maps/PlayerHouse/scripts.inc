@@ -27,7 +27,8 @@ PlayerHouse_EventScript_Supplies::
 	setflag FLAG_SYS_B_DASH
 	setflag FLAG_ADVENTURE_STARTED
 	closemessage
-	giveitem ITEM_ULTRA_BALL, 50
+	giveitem ITEM_ULTRA_BALL, 100
+	giveitem ITEM_FULL_RESTORE, 20
 	removeobject 2
 	setflag FLAG_HIDE_SUPPLY_BALL
 	release
