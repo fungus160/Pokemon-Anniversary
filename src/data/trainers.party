@@ -16948,3 +16948,60 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fell Stinger
 - Dragon Pulse
 - Air Cutter
+
+=== TRAINER_MARYL ===
+Name: Mary
+Class: Expert
+Pic: Expert F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Raticate
+Level: 45
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Super Fang
+- Double-Edge
+- Crunch
+
+Sableye
+Level: 51
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Zen Headbutt
+- Power Gem 
+- Protect
+
+Honchkrow
+Level: 51
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Sucker Punch
+- Swagger
+- Brave Bird
+
+Thievul
+Level: 48
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Team
+- Parting Shot
+- Mimic
+- Fire Fang
+
+Tyranitar
+Level: 52
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stone Edge
+- Earthquake
+- Hyper Beam
+- Stomping Tantrum
+
+Iron Jugulis
+Level: 53
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hyper Beam
+- Dragon Pulse
+- Air Slash
+- Charge Beam

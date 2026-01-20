@@ -60,4 +60,4 @@ MAINSTREET_Text_MrInjectablePostBattle:
 	.string "way around a needle better\l"
 	.string "than I ever could.\p"
 	.string "Explains why I lost.$"
-	
+

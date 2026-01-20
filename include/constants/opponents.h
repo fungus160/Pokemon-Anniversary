@@ -861,13 +861,14 @@
 #define TRAINER_BUZZ                        855
 #define TRAINER_FENT                        856
 #define TRAINER_MRINJ                       857
+#define TRAINER_MARYL                       858
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      858
-#define MAX_TRAINERS_COUNT                  867
+#define TRAINERS_COUNT                      859
+#define MAX_TRAINERS_COUNT                  868
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
