@@ -111,7 +111,7 @@ PMD2_Text_Employee6:
 
 PMD2_Text_Employee7:
 	.string "Yo, did you hear? Mary kidnapped\n"
-	.string "that old employee, Brendan because\l"
+	.string "that old employee because\l"
 	.string "she thinks he committed wage theft!\p"
 	.string "I mean...to be fair, he was on the\n"
 	.string "toilet for an absurd amount of time...\p"
@@ -177,6 +177,7 @@ PMD2_Movement_BrendanC:
 	step_end
 
 PMD2_Movement_PlayerFirst:
+	walk_in_place_right
 	walk_in_place_right
 	step_end
 
